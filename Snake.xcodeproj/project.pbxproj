@@ -7,73 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5028482C2610337E00299E71 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5028482B2610337E00299E71 /* Tests_iOS.swift */; };
-		502848372610337E00299E71 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502848362610337E00299E71 /* Tests_macOS.swift */; };
+		5001E7572610C58500366853 /* Snake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5014ECCF2610BCF600F8FD18 /* Snake.swift */; };
+		5001E77B2610C96F00366853 /* SnakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5001E77A2610C96F00366853 /* SnakeTests.swift */; };
+		5014ECC92610BC9200F8FD18 /* LaunchUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5014ECC82610BC9200F8FD18 /* LaunchUseCase.swift */; };
+		5014ECD72610BCFC00F8FD18 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5014ECD62610BCFC00F8FD18 /* GameBoard.swift */; };
+		5014ECDE2610C02F00F8FD18 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5014ECDD2610C02F00F8FD18 /* Point.swift */; };
+		5014ECE52610C03400F8FD18 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5014ECE42610C03400F8FD18 /* Size.swift */; };
 		502848392610337E00299E71 /* SnakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502848102610337C00299E71 /* SnakeApp.swift */; };
-		5028483A2610337E00299E71 /* SnakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502848102610337C00299E71 /* SnakeApp.swift */; };
 		5028483B2610337E00299E71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502848112610337C00299E71 /* ContentView.swift */; };
-		5028483C2610337E00299E71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502848112610337C00299E71 /* ContentView.swift */; };
 		5028483D2610337E00299E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502848122610337D00299E71 /* Assets.xcassets */; };
-		5028483E2610337E00299E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502848122610337D00299E71 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		502848282610337E00299E71 /* PBXContainerItemProxy */ = {
+		5001E77D2610C96F00366853 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5028480B2610337B00299E71 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 502848162610337D00299E71;
-			remoteInfo = "Snake (iOS)";
-		};
-		502848332610337E00299E71 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5028480B2610337B00299E71 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5028481E2610337E00299E71;
-			remoteInfo = "Snake (macOS)";
+			remoteInfo = Snake;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5001E7782610C96F00366853 /* SnakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5001E77A2610C96F00366853 /* SnakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeTests.swift; sourceTree = "<group>"; };
+		5001E77C2610C96F00366853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5014ECC82610BC9200F8FD18 /* LaunchUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchUseCase.swift; sourceTree = "<group>"; };
+		5014ECCF2610BCF600F8FD18 /* Snake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snake.swift; sourceTree = "<group>"; };
+		5014ECD62610BCFC00F8FD18 /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
+		5014ECDD2610C02F00F8FD18 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		5014ECE42610C03400F8FD18 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
 		502848102610337C00299E71 /* SnakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeApp.swift; sourceTree = "<group>"; };
 		502848112610337C00299E71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		502848122610337D00299E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		502848172610337D00299E71 /* Snake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5028481A2610337D00299E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5028481F2610337E00299E71 /* Snake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snake.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		502848212610337E00299E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		502848222610337E00299E71 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		502848272610337E00299E71 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5028482B2610337E00299E71 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		5028482D2610337E00299E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		502848322610337E00299E71 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		502848362610337E00299E71 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		502848382610337E00299E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5001E7752610C96F00366853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		502848142610337D00299E71 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5028481C2610337E00299E71 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		502848242610337E00299E71 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5028482F2610337E00299E71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -83,14 +62,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5001E7792610C96F00366853 /* SnakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5001E77A2610C96F00366853 /* SnakeTests.swift */,
+				5001E77C2610C96F00366853 /* Info.plist */,
+			);
+			path = SnakeTests;
+			sourceTree = "<group>";
+		};
+		5014ECBC2610BBCF00F8FD18 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5014ECBF2610BBED00F8FD18 /* New Group */,
+				5014ECBD2610BBDB00F8FD18 /* Entity */,
+				5014ECBE2610BBDE00F8FD18 /* UseCases */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5014ECBD2610BBDB00F8FD18 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				5014ECCF2610BCF600F8FD18 /* Snake.swift */,
+				5014ECD62610BCFC00F8FD18 /* GameBoard.swift */,
+				5014ECDD2610C02F00F8FD18 /* Point.swift */,
+				5014ECE42610C03400F8FD18 /* Size.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		5014ECBE2610BBDE00F8FD18 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				5014ECC82610BC9200F8FD18 /* LaunchUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		5014ECBF2610BBED00F8FD18 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		5028480A2610337B00299E71 = {
 			isa = PBXGroup;
 			children = (
 				5028480F2610337C00299E71 /* Shared */,
 				502848192610337D00299E71 /* iOS */,
-				502848202610337E00299E71 /* macOS */,
-				5028482A2610337E00299E71 /* Tests iOS */,
-				502848352610337E00299E71 /* Tests macOS */,
+				5001E7792610C96F00366853 /* SnakeTests */,
 				502848182610337D00299E71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,9 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				502848172610337D00299E71 /* Snake.app */,
-				5028481F2610337E00299E71 /* Snake.app */,
-				502848272610337E00299E71 /* Tests iOS.xctest */,
-				502848322610337E00299E71 /* Tests macOS.xctest */,
+				5001E7782610C96F00366853 /* SnakeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,44 +139,36 @@
 		502848192610337D00299E71 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				5014ECBC2610BBCF00F8FD18 /* Main */,
 				5028481A2610337D00299E71 /* Info.plist */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
 		};
-		502848202610337E00299E71 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				502848212610337E00299E71 /* Info.plist */,
-				502848222610337E00299E71 /* macOS.entitlements */,
-			);
-			path = macOS;
-			sourceTree = "<group>";
-		};
-		5028482A2610337E00299E71 /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5028482B2610337E00299E71 /* Tests_iOS.swift */,
-				5028482D2610337E00299E71 /* Info.plist */,
-			);
-			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		502848352610337E00299E71 /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				502848362610337E00299E71 /* Tests_macOS.swift */,
-				502848382610337E00299E71 /* Info.plist */,
-			);
-			path = "Tests macOS";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		502848162610337D00299E71 /* Snake (iOS) */ = {
+		5001E7772610C96F00366853 /* SnakeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 502848412610337E00299E71 /* Build configuration list for PBXNativeTarget "Snake (iOS)" */;
+			buildConfigurationList = 5001E77F2610C96F00366853 /* Build configuration list for PBXNativeTarget "SnakeTests" */;
+			buildPhases = (
+				5001E7742610C96F00366853 /* Sources */,
+				5001E7752610C96F00366853 /* Frameworks */,
+				5001E7762610C96F00366853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5001E77E2610C96F00366853 /* PBXTargetDependency */,
+			);
+			name = SnakeTests;
+			productName = SnakeTests;
+			productReference = 5001E7782610C96F00366853 /* SnakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		502848162610337D00299E71 /* Snake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 502848412610337E00299E71 /* Build configuration list for PBXNativeTarget "Snake" */;
 			buildPhases = (
 				502848132610337D00299E71 /* Sources */,
 				502848142610337D00299E71 /* Frameworks */,
@@ -166,63 +178,10 @@
 			);
 			dependencies = (
 			);
-			name = "Snake (iOS)";
+			name = Snake;
 			productName = "Snake (iOS)";
 			productReference = 502848172610337D00299E71 /* Snake.app */;
 			productType = "com.apple.product-type.application";
-		};
-		5028481E2610337E00299E71 /* Snake (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 502848442610337E00299E71 /* Build configuration list for PBXNativeTarget "Snake (macOS)" */;
-			buildPhases = (
-				5028481B2610337E00299E71 /* Sources */,
-				5028481C2610337E00299E71 /* Frameworks */,
-				5028481D2610337E00299E71 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Snake (macOS)";
-			productName = "Snake (macOS)";
-			productReference = 5028481F2610337E00299E71 /* Snake.app */;
-			productType = "com.apple.product-type.application";
-		};
-		502848262610337E00299E71 /* Tests iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 502848472610337E00299E71 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
-			buildPhases = (
-				502848232610337E00299E71 /* Sources */,
-				502848242610337E00299E71 /* Frameworks */,
-				502848252610337E00299E71 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				502848292610337E00299E71 /* PBXTargetDependency */,
-			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = 502848272610337E00299E71 /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		502848312610337E00299E71 /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5028484A2610337E00299E71 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				5028482E2610337E00299E71 /* Sources */,
-				5028482F2610337E00299E71 /* Frameworks */,
-				502848302610337E00299E71 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				502848342610337E00299E71 /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = 502848322610337E00299E71 /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -233,19 +192,12 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					502848162610337D00299E71 = {
-						CreatedOnToolsVersion = 12.4;
-					};
-					5028481E2610337E00299E71 = {
-						CreatedOnToolsVersion = 12.4;
-					};
-					502848262610337E00299E71 = {
+					5001E7772610C96F00366853 = {
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = 502848162610337D00299E71;
 					};
-					502848312610337E00299E71 = {
+					502848162610337D00299E71 = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 5028481E2610337E00299E71;
 					};
 				};
 			};
@@ -262,15 +214,20 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				502848162610337D00299E71 /* Snake (iOS) */,
-				5028481E2610337E00299E71 /* Snake (macOS) */,
-				502848262610337E00299E71 /* Tests iOS */,
-				502848312610337E00299E71 /* Tests macOS */,
+				502848162610337D00299E71 /* Snake */,
+				5001E7772610C96F00366853 /* SnakeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5001E7762610C96F00366853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		502848152610337D00299E71 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -279,81 +236,87 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5028481D2610337E00299E71 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5028483E2610337E00299E71 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		502848252610337E00299E71 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		502848302610337E00299E71 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5001E7742610C96F00366853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5001E77B2610C96F00366853 /* SnakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		502848132610337D00299E71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5014ECE52610C03400F8FD18 /* Size.swift in Sources */,
+				5014ECC92610BC9200F8FD18 /* LaunchUseCase.swift in Sources */,
+				5014ECDE2610C02F00F8FD18 /* Point.swift in Sources */,
+				5014ECD72610BCFC00F8FD18 /* GameBoard.swift in Sources */,
 				5028483B2610337E00299E71 /* ContentView.swift in Sources */,
+				5001E7572610C58500366853 /* Snake.swift in Sources */,
 				502848392610337E00299E71 /* SnakeApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5028481B2610337E00299E71 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5028483C2610337E00299E71 /* ContentView.swift in Sources */,
-				5028483A2610337E00299E71 /* SnakeApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		502848232610337E00299E71 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5028482C2610337E00299E71 /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5028482E2610337E00299E71 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				502848372610337E00299E71 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		502848292610337E00299E71 /* PBXTargetDependency */ = {
+		5001E77E2610C96F00366853 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 502848162610337D00299E71 /* Snake (iOS) */;
-			targetProxy = 502848282610337E00299E71 /* PBXContainerItemProxy */;
-		};
-		502848342610337E00299E71 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5028481E2610337E00299E71 /* Snake (macOS) */;
-			targetProxy = 502848332610337E00299E71 /* PBXContainerItemProxy */;
+			target = 502848162610337D00299E71 /* Snake */;
+			targetProxy = 5001E77D2610C96F00366853 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		5001E7802610C96F00366853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSTQSY2TJN;
+				INFOPLIST_FILE = SnakeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ohlulu.SnakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snake.app/Snake";
+			};
+			name = Debug;
+		};
+		5001E7812610C96F00366853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TSTQSY2TJN;
+				INFOPLIST_FILE = SnakeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ohlulu.SnakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snake.app/Snake";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		5028483F2610337E00299E71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -510,146 +473,18 @@
 			};
 			name = Release;
 		};
-		502848452610337E00299E71 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = TSTQSY2TJN;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ohlulu.Snake;
-				PRODUCT_NAME = Snake;
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		502848462610337E00299E71 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = TSTQSY2TJN;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ohlulu.Snake;
-				PRODUCT_NAME = Snake;
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		502848482610337E00299E71 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TSTQSY2TJN;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ohlulu.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Snake (iOS)";
-			};
-			name = Debug;
-		};
-		502848492610337E00299E71 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TSTQSY2TJN;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ohlulu.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Snake (iOS)";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		5028484B2610337E00299E71 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = TSTQSY2TJN;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ohlulu.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Snake (macOS)";
-			};
-			name = Debug;
-		};
-		5028484C2610337E00299E71 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = TSTQSY2TJN;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ohlulu.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Snake (macOS)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5001E77F2610C96F00366853 /* Build configuration list for PBXNativeTarget "SnakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5001E7802610C96F00366853 /* Debug */,
+				5001E7812610C96F00366853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5028480E2610337B00299E71 /* Build configuration list for PBXProject "Snake" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -659,38 +494,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		502848412610337E00299E71 /* Build configuration list for PBXNativeTarget "Snake (iOS)" */ = {
+		502848412610337E00299E71 /* Build configuration list for PBXNativeTarget "Snake" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				502848422610337E00299E71 /* Debug */,
 				502848432610337E00299E71 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		502848442610337E00299E71 /* Build configuration list for PBXNativeTarget "Snake (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				502848452610337E00299E71 /* Debug */,
-				502848462610337E00299E71 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		502848472610337E00299E71 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				502848482610337E00299E71 /* Debug */,
-				502848492610337E00299E71 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5028484A2610337E00299E71 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5028484B2610337E00299E71 /* Debug */,
-				5028484C2610337E00299E71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -26,13 +26,14 @@ class SnakeTests: XCTestCase {
     }
     
     func test_fetchFood_shouldNotInSnakeBoardOrOutOfBoard() throws {
-        let sut = try LaunchUseCase(snakeLength: 10, gameBoardSize: .init(width: 10, height: 10))
-        let board = sut.fetchBoard()
+        let boardSize = Size(width: 10, height: 10)
+        let sut = try LaunchUseCase(snakeLength: 10, gameBoardSize: boardSize)
+        
         let snake = sut.fetchSnake()
         let food = sut.fetchFood(withoutBody: snake.body)
         
-        XCTAssertLessThan(food.x, board.size.width)
-        XCTAssertLessThan(food.y, board.size.height)
+        XCTAssertLessThan(food.x, boardSize.width)
+        XCTAssertLessThan(food.y, boardSize.height)
         
         XCTAssertGreaterThan(food.x, 0)
         XCTAssertGreaterThan(food.y, 0)

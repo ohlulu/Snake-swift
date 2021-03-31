@@ -13,8 +13,8 @@ final class LaunchUseCase {
         case boardTooSmall
     }
     
-    private let snakeLength: Int
-    private let gameBoardSize: Size
+    let snakeLength: Int
+    let gameBoardSize: Size
     
     init(snakeLength: Int, gameBoardSize: Size) throws {
         if gameBoardSize.area <= snakeLength {
@@ -29,10 +29,6 @@ extension LaunchUseCase {
     
     func fetchSnake() -> Snake {
         return Snake(length: snakeLength, gameBoardSize: gameBoardSize)
-    }
-    
-    func fetchBoard() -> GameBoard {
-        return GameBoard(size: gameBoardSize)
     }
     
     func fetchFood(withoutBody body: [Point]) -> Point {

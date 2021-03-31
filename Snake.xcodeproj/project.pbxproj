@@ -10,7 +10,6 @@
 		5001E7572610C58500366853 /* Snake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5014ECCF2610BCF600F8FD18 /* Snake.swift */; };
 		5001E77B2610C96F00366853 /* SnakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5001E77A2610C96F00366853 /* SnakeTests.swift */; };
 		5014ECC92610BC9200F8FD18 /* LaunchUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5014ECC82610BC9200F8FD18 /* LaunchUseCase.swift */; };
-		5014ECD72610BCFC00F8FD18 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5014ECD62610BCFC00F8FD18 /* GameBoard.swift */; };
 		5014ECDE2610C02F00F8FD18 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5014ECDD2610C02F00F8FD18 /* Point.swift */; };
 		5014ECE52610C03400F8FD18 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5014ECE42610C03400F8FD18 /* Size.swift */; };
 		502848392610337E00299E71 /* SnakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502848102610337C00299E71 /* SnakeApp.swift */; };
@@ -34,7 +33,6 @@
 		5001E77C2610C96F00366853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5014ECC82610BC9200F8FD18 /* LaunchUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchUseCase.swift; sourceTree = "<group>"; };
 		5014ECCF2610BCF600F8FD18 /* Snake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snake.swift; sourceTree = "<group>"; };
-		5014ECD62610BCFC00F8FD18 /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
 		5014ECDD2610C02F00F8FD18 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		5014ECE42610C03400F8FD18 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
 		502848102610337C00299E71 /* SnakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeApp.swift; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				5014ECCF2610BCF600F8FD18 /* Snake.swift */,
-				5014ECD62610BCFC00F8FD18 /* GameBoard.swift */,
 				5014ECDD2610C02F00F8FD18 /* Point.swift */,
 				5014ECE42610C03400F8FD18 /* Size.swift */,
 			);
@@ -254,7 +251,6 @@
 				5014ECE52610C03400F8FD18 /* Size.swift in Sources */,
 				5014ECC92610BC9200F8FD18 /* LaunchUseCase.swift in Sources */,
 				5014ECDE2610C02F00F8FD18 /* Point.swift in Sources */,
-				5014ECD72610BCFC00F8FD18 /* GameBoard.swift in Sources */,
 				5028483B2610337E00299E71 /* ContentView.swift in Sources */,
 				5001E7572610C58500366853 /* Snake.swift in Sources */,
 				502848392610337E00299E71 /* SnakeApp.swift in Sources */,

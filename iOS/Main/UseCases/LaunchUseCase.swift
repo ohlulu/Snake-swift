@@ -14,36 +14,36 @@ final class LaunchUseCase {
     }
     
     private let snakeLength: Int
-    private let gamebaordSize: Size
+    private let gameBoardSize: Size
     
-    init(snakeLength: Int, gamebaordSize: Size) throws {
-        if gamebaordSize.area <= snakeLength {
+    init(snakeLength: Int, gameBoardSize: Size) throws {
+        if gameBoardSize.area <= snakeLength {
             throw Error.boardTooSmall
         }
         self.snakeLength = snakeLength
-        self.gamebaordSize = gamebaordSize
+        self.gameBoardSize = gameBoardSize
     }
 }
 
 extension LaunchUseCase {
     
-    func fecthSnake() -> Snake {
-        return Snake(length: snakeLength, gamebaordSize: gamebaordSize)
+    func fetchSnake() -> Snake {
+        return Snake(length: snakeLength, gameBoardSize: gameBoardSize)
     }
     
-    func fecthBoard() -> GameBoard {
-        return GameBoard(size: gamebaordSize)
+    func fetchBoard() -> GameBoard {
+        return GameBoard(size: gameBoardSize)
     }
     
-    func fecthFood(withoutBody body: [Point]) -> Point {
+    func fetchFood(withoutBody body: [Point]) -> Point {
         var x: UInt
         var y: UInt
         repeat {
-            x = (UInt(1) ..< gamebaordSize.width).randomElement() ?? 0
-            y = (UInt(1) ..< gamebaordSize.height).randomElement() ?? 0
+            x = (UInt(1) ..< gameBoardSize.width).randomElement() ?? 0
+            y = (UInt(1) ..< gameBoardSize.height).randomElement() ?? 0
         } while (
-            x != 0 && x >= gamebaordSize.width
-            && y != 0 && y >= gamebaordSize.height
+            x != 0 && x >= gameBoardSize.width
+            && y != 0 && y >= gameBoardSize.height
             && body.contains(.init(x: x, y: y))
         )
         return .init(x: x, y: y)

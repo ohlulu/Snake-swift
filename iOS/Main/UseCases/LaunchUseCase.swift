@@ -17,7 +17,7 @@ final class LaunchUseCase {
     private let gamebaordSize: Size
     
     init(snakeLength: Int, gamebaordSize: Size) throws {
-        if gamebaordSize.area <= snakeLength  {
+        if gamebaordSize.area <= snakeLength {
             throw Error.boardTooSmall
         }
         self.snakeLength = snakeLength
@@ -29,5 +29,9 @@ extension LaunchUseCase {
     
     func fecthSnake() -> Snake {
         return Snake(length: snakeLength, gamebaordSize: gamebaordSize)
+    }
+    
+    func fecthBoard() -> GameBoard {
+        return GameBoard(size: gamebaordSize)
     }
 }

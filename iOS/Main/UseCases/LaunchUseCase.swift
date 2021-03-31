@@ -34,4 +34,18 @@ extension LaunchUseCase {
     func fecthBoard() -> GameBoard {
         return GameBoard(size: gamebaordSize)
     }
+    
+    func fecthFood(withoutBody body: [Point]) -> Point {
+        var x: UInt
+        var y: UInt
+        repeat {
+            x = (UInt(1) ..< gamebaordSize.width).randomElement() ?? 0
+            y = (UInt(1) ..< gamebaordSize.height).randomElement() ?? 0
+        } while (
+            x != 0 && x >= gamebaordSize.width
+            && y != 0 && y >= gamebaordSize.height
+            && body.contains(.init(x: x, y: y))
+        )
+        return .init(x: x, y: y)
+    }
 }

@@ -11,3 +11,10 @@ struct Size {
     let width: UInt
     let height: UInt
 }
+
+extension Size {
+    
+    var area: UInt {
+        width * height
+    }
+}

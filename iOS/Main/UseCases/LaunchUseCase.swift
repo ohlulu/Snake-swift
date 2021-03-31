@@ -9,13 +9,18 @@ import Foundation
 
 final class LaunchUseCase {
     
+    private let snakeLength: Int
+    private let gamebaordSize: Size
+    
+    init(snakeLength: Int, gamebaordSize: Size) {
+        self.snakeLength = snakeLength
+        self.gamebaordSize = gamebaordSize
+    }
 }
 
 extension LaunchUseCase {
     
-    func fecthEnv(snakeLength: Int, gamebaordSize: Size) -> (Snake, GameBoard) {
-        let snake = Snake(length: snakeLength, gamebaordSize: gamebaordSize)
-        let gameBoard = GameBoard()
-        return (snake, gameBoard)
+    func fecthSnake() -> Snake {
+        return Snake(length: snakeLength, gamebaordSize: gamebaordSize)
     }
 }

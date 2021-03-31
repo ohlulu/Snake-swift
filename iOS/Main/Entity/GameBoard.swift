@@ -9,4 +9,8 @@ import Foundation
 
 struct GameBoard {
     
+    let size: Size
+    init(size: Size) {
+        self.size = size
+    }
 }
